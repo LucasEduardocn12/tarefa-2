@@ -17,3 +17,12 @@ git merge feature-1
 git commit -m "resolvendo conflito"
 git branch add-comandos
 git switch add-comandos
+git remote add origin-atividadee https://github.com/LucasEduardocn12/tarefa-2.git
+git push -u origin-atividadee add-comandos
+git push -u origin-atividadee main
+git add .
+git commit -m "Adicionando parte dos comandos"
+git push -u origin-atividadee add-comandos
+git add . 
+git commit -m "Finalizando a adição de todos os comandos"
+git push -u origin-atividadee add-comandos
