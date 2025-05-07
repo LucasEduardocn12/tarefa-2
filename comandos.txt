@@ -1,0 +1,19 @@
+Nome: Lucas Eduardo Silva de Medeiros
+Matrícula: 12109239476
+
+Comandos:
+mkdir tarefa-u-2
+cd tarefa-u-2
+git add text.txt
+git commit -m "primeiro commit"
+git branch feature-1
+git switch feature-1
+git add text.txt
+git commit -m "commit na branch feature"
+git switch main
+git add text.txt
+git commit -m "commit na branch main"
+git merge feature-1
+git commit -m "resolvendo conflito"
+git branch add-comandos
+git switch add-comandos
